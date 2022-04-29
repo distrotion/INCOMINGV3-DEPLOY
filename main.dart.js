@@ -41235,7 +41235,7 @@ a_o(a,b){var s=0,r=A.V(t.H),q,p,o,n,m,l
 var $async$ux=A.W(function(c,d){if(c===1)return A.S(d,r)
 while(true)switch(s){case 0:n=t.N
 s=2
-return A.R(A.kH(null).jo("http://localhost:14100/getINCOMING",A.aA(["MATNR",$.kS,"CHARG",$.kR],n,n),t.z),$async$ux)
+return A.R(A.kH(null).jo("http://172.23.10.32:14100/getINCOMING",A.aA(["MATNR",$.kS,"CHARG",$.kR],n,n),t.z),$async$ux)
 case 2:m=d
 l=A.b([new A.c7("-","-","")],t._)
 if(m.d===200){q=m.a
@@ -41254,9 +41254,9 @@ while(true)switch(s){case 0:m=t.N
 l=A.aA(["MATNR",$.kS,"CHARG",$.kR,"MBLNR",$.Kj,"BWART",$.Kf,"MENGE",$.Kl,"MEINS",$.Kk,"MAT_FG",$.Ki,"KUNNR",$.Kh,"SORTL",$.Kr,"NAME1",$.Km,"CUST_LOT",$.Kg,"PART_NM",$.Ko,"PART_NO",$.Kp,"PROCESS",$.Kq,"OLDMAT_CP",$.Kn,"STATUS",$.Ks,"UserNO",$.my,"ITEM",$.yX,"ITEMstatus","GOOD","ITEMspecialAccStatus","","ITEMspecialAccCOMMENT","","ITEMspecialAccPic","","ITEMspecialAccPic01","","ITEMspecialAccPic02","","ITEMspecialAccPic03","","ITEMspecialAccPic04","","ITEMspecialAccPic05","","ITEMsPiecesSelected",""],m,t.K)
 k=t.z
 s=2
-return A.R(A.kH(null).jo("http://localhost:14100/updateDataIncommingGOOD",l,k),$async$qJ)
+return A.R(A.kH(null).jo("http://172.23.10.32:14100/updateDataIncommingGOOD",l,k),$async$qJ)
 case 2:s=3
-return A.R(A.kH(null).jo("http://localhost:14100/getINCOMING",A.aA(["MATNR",$.kS,"CHARG",$.kR],m,m),k),$async$qJ)
+return A.R(A.kH(null).jo("http://172.23.10.32:14100/getINCOMING",A.aA(["MATNR",$.kS,"CHARG",$.kR],m,m),k),$async$qJ)
 case 3:q=d
 p=A.b([new A.c7("-","-","")],t._)
 if(q.d===200){o=q.a
@@ -41274,9 +41274,9 @@ while(true)switch(s){case 0:m=t.N
 l=A.aA(["MATNR",$.kS,"CHARG",$.kR,"MBLNR",$.Kj,"BWART",$.Kf,"MENGE",$.Kl,"MEINS",$.Kk,"MAT_FG",$.Ki,"KUNNR",$.Kh,"SORTL",$.Kr,"NAME1",$.Km,"CUST_LOT",$.Kg,"PART_NM",$.Ko,"PART_NO",$.Kp,"PROCESS",$.Kq,"OLDMAT_CP",$.Kn,"STATUS",$.Ks,"UserNO",$.my,"ITEM",$.yX,"ITEMstatus","WAIT","ITEMspecialAccStatus","waitting for specialaccept","ITEMspecialAccCOMMENT",$.a77,"ITEMspecialAccPic","","ITEMspecialAccPic01",$.a78,"ITEMspecialAccPic02",$.a79,"ITEMspecialAccPic03",$.a7a,"ITEMspecialAccPic04",$.a7b,"ITEMspecialAccPic05",$.a7c,"ITEMsPiecesSelected",$.a76],m,t.K)
 k=t.z
 s=2
-return A.R(A.kH(null).jo("http://localhost:14100/updateDataIncommingWAIT",l,k),$async$qM)
+return A.R(A.kH(null).jo("http://172.23.10.32:14100/updateDataIncommingWAIT",l,k),$async$qM)
 case 2:s=3
-return A.R(A.kH(null).jo("http://localhost:14100/getINCOMING",A.aA(["MATNR",$.kS,"CHARG",$.kR],m,m),k),$async$qM)
+return A.R(A.kH(null).jo("http://172.23.10.32:14100/getINCOMING",A.aA(["MATNR",$.kS,"CHARG",$.kR],m,m),k),$async$qM)
 case 3:q=d
 p=A.b([new A.c7("-","-","")],t._)
 if(q.d===200){o=q.a
@@ -41294,9 +41294,9 @@ while(true)switch(s){case 0:m=t.N
 l=A.aA(["MATNR",$.kS,"CHARG",$.kR,"MBLNR",$.Kj,"BWART",$.Kf,"MENGE",$.Kl,"MEINS",$.Kk,"MAT_FG",$.Ki,"KUNNR",$.Kh,"SORTL",$.Kr,"NAME1",$.Km,"CUST_LOT",$.Kg,"PART_NM",$.Ko,"PART_NO",$.Kp,"PROCESS",$.Kq,"OLDMAT_CP",$.Kn,"STATUS",$.Ks,"UserNO",$.my,"ITEM",$.yX,"ITEMstatus","GOOD","ITEMspecialAccStatus","SpecialAccept has approved","ITEMspecialAccCOMMENT","","ITEMspecialAccPic","","ITEMspecialAccPic01","","ITEMspecialAccPic02","","ITEMspecialAccPic03","","ITEMspecialAccPic04","","ITEMspecialAccPic05","","ITEMsPiecesSelected",""],m,t.K)
 k=t.z
 s=2
-return A.R(A.kH(null).jo("http://localhost:14100/updateDataIncommingGOOD_NA",l,k),$async$qK)
+return A.R(A.kH(null).jo("http://172.23.10.32:14100/updateDataIncommingGOOD_NA",l,k),$async$qK)
 case 2:s=3
-return A.R(A.kH(null).jo("http://localhost:14100/getINCOMING",A.aA(["MATNR",$.kS,"CHARG",$.kR],m,m),k),$async$qK)
+return A.R(A.kH(null).jo("http://172.23.10.32:14100/getINCOMING",A.aA(["MATNR",$.kS,"CHARG",$.kR],m,m),k),$async$qK)
 case 3:q=d
 p=A.b([new A.c7("-","-","")],t._)
 if(q.d===200){o=q.a
@@ -41314,9 +41314,9 @@ while(true)switch(s){case 0:m=t.N
 l=A.aA(["MATNR",$.kS,"CHARG",$.kR,"MBLNR",$.Kj,"BWART",$.Kf,"MENGE",$.Kl,"MEINS",$.Kk,"MAT_FG",$.Ki,"KUNNR",$.Kh,"SORTL",$.Kr,"NAME1",$.Km,"CUST_LOT",$.Kg,"PART_NM",$.Ko,"PART_NO",$.Kp,"PROCESS",$.Kq,"OLDMAT_CP",$.Kn,"STATUS",$.Ks,"UserNO",$.my,"ITEM",$.yX,"ITEMstatus","reject","ITEMspecialAccStatus","","ITEMspecialAccCOMMENT","","ITEMspecialAccPic","","ITEMspecialAccPic01","","ITEMspecialAccPic02","","ITEMspecialAccPic03","","ITEMspecialAccPic04","","ITEMspecialAccPic05","","ITEMsPiecesSelected",""],m,t.K)
 k=t.z
 s=2
-return A.R(A.kH(null).jo("http://localhost:14100/updateDataIncommingNOGOOD",l,k),$async$qL)
+return A.R(A.kH(null).jo("http://172.23.10.32:14100/updateDataIncommingNOGOOD",l,k),$async$qL)
 case 2:s=3
-return A.R(A.kH(null).jo("http://localhost:14100/getINCOMING",A.aA(["MATNR",$.kS,"CHARG",$.kR],m,m),k),$async$qL)
+return A.R(A.kH(null).jo("http://172.23.10.32:14100/getINCOMING",A.aA(["MATNR",$.kS,"CHARG",$.kR],m,m),k),$async$qL)
 case 3:q=d
 p=A.b([new A.c7("-","-","")],t._)
 if(q.d===200){o=q.a
